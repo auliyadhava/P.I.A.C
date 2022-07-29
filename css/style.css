@@ -1979,4 +1979,10 @@ blockquote {
   object-fit: cover;
   opacity: 0.09;
 }
+
+.text{
+  position: relative;
+  z-index: 10;
+}
+
 /*# sourceMappingURL=style.css.map */
