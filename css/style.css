@@ -564,6 +564,9 @@ a:hover {
   background: url("../images/backgrounds/13.mp4");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
 }
 
 .bg-2 {
@@ -1953,16 +1956,13 @@ blockquote {
 
 .showcase
 {
-  position: absolute;
-  right: 0;
-  width: 100%;
-  min-height: 100vh;
-  padding: 100px;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  transition: 0.5s;
-  z-index: 2;
+  overflow: hidden;
 }
 .showcase.active
 {
